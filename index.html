@@ -1,17 +1,48 @@
-<html>
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Unit Converter</title>
+</head>
 
-    <head>
+<header>
 
-        <link rel="stylesheet" href="index.css">
-        <script src="index.js"></script>
+</header>
 
-    </head>
+<body>
+    
+    <main>
+        <div class="dark-initial">
+            <div class="main">
 
-    <body>
-        <h1>People entered:</h1>
-        <h2 id="count-el">0</h2>
-        <button id="increment-btn" onclick="increment()">INCREMENT</button>
-        <!-- <button onclick="">Click me</button> -->
-        <!-- <script src="index.js"></script> -->
-    </body>
-</html>
+                <p class="heading1">Metric/Imperial unit conversion</p>
+                <!-- <p id="input-field">1</p> -->
+                <!-- <p id="number"><input type="number"></p> -->
+                <input type="number" id="input-field" value="2">
+                <!-- <script src="js/index.js"></script> -->
+                
+            </div>
+
+            <div class="results-bgr">
+                <div class="conversions-results">
+                    <p class="unit-text">Length (Meter/Feet)</p>
+                    <p id="supporting-text-length">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
+                    <!-- <script src="js/index.js"></script> -->
+                </div>
+                <div class="conversions-results">
+                    <p class="unit-text">Volume (Liters/Gallons)</p>
+                    <p id="supporting-text-volume">0 liters = 0.000 gallons | 0 gallons = 0.000 liters</p>
+                </div>
+                <div class="conversions-results">
+                    <p class="unit-text">Mass (Kilograms/Pounds)</p>
+                    <p id="supporting-text-mass">0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos</p>
+                </div>
+                <!-- <script src="js/index.js"></script> -->
+            </div>
+            <!-- <script src="js/index.js"></script> -->
+        </div>
+
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
